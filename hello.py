@@ -1,11 +1,7 @@
-"""A simple module to randomly select a fruit."""
+#!/usr/bin/env python
 
-from random import choices
+from mylib.fruity import random_fruit
 
 
-def fruit():
-    """Return a random fruit from the list."""
-    fruits = ["apple", "banana", "cherry"]
-    return choices(fruits)[0]
-
-print(fruit())
+if __name__ == "__main__":
+    print(random_fruit())
