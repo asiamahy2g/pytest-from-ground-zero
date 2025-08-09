@@ -1,9 +1,12 @@
+"""A simple module to randomly select a fruit."""
+
 from random import choices
 
+
 def fruit():
-    fruits = ['apple','banana', 'cherry']
+    """Return a random fruit from the list."""
+    fruits = ["apple", "banana", "cherry"]
     return choices(fruits)[0]
 
-print (fruit())
-# var = 1
-# var = var
+
+print(fruit())
