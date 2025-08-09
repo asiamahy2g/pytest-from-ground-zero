@@ -6,7 +6,6 @@ from random import choices
 def fruit():
     """Return a random fruit from the list."""
     fruits = ["apple", "banana", "cherry"]
-    return choices(fruits)[0]
-
+    return choices(fruits)[0],
 
 print(fruit())
