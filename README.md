@@ -13,3 +13,4 @@ Checkout if you  run 'pip freeze | wc -l' there are many packages you may not wa
  ## Testing for multicloud
 
  *AWS cloud shell
+    test
